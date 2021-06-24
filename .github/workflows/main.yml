@@ -38,7 +38,7 @@ jobs:
     - name: CodeGuru Reviewer
       uses: aws-actions/codeguru-reviewer@v1.1
       with:
-        s3_bucket: codeguru-reviewer-production-PDX  # S3 Bucket with "codeguru-reviewer-*" prefix
+        s3_bucket: codeguru-reviewer-production-pdx  # S3 Bucket with "codeguru-reviewer-*" prefix
 
     # Step 3: Upload results into GitHub
     - name: Upload review result
